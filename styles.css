@@ -1,7 +1,16 @@
-/* Estilos para os links */
+body {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Utiliza a altura total da tela */
+  margin: 0; /* Remove margens padrão */
+  background-image: url("https://i.pinimg.com/736x/eb/1a/cc/eb1accbe943acd304321ca0f1ca91da5.jpg");
+  background-size: cover;
+}
+
 a {
   display: block;
-  margin: 20px auto;
   padding: 10px 20px;
   font-size: 18px;
   color: #fff;
@@ -9,6 +18,7 @@ a {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Espaçamento entre os links */
 }
 
 /* Altera a cor de fundo ao passar o mouse sobre o link */
